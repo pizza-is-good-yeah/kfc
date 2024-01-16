@@ -32,7 +32,7 @@ jobs:
           name: deploy
           command: '#e.g. ./deploy.sh'
 workflows:
-  example:
+  cheese-coffee:
     jobs:
       - test
       - build:
